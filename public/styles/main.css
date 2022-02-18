@@ -1,0 +1,768 @@
+a{
+    text-decoration: none;
+}
+ul{
+    padding: 0;
+}
+p,h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
+    background-size: cover;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+header .container{
+    height: 224px;
+    padding-top: 25px;
+}
+header  .up{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 35px;
+}
+header .up a{
+    color: #fff;
+}
+header .left{
+    display: flex;
+}
+header .left  div a{
+    margin-right: 5em;
+}
+header .left img{
+    margin-right: 25px;
+}
+header .right{
+    display: flex;
+    justify-content: space-between;
+    width: 10em;
+}
+header .right a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 7px;
+    border-radius: 7px;
+}
+
+header .right a:hover{
+    color: #101828;
+    background: #fff;
+
+}
+header .bottom{
+    display: flex;
+    justify-content: space-between;
+}
+header .bottom select{
+    min-width: 270px;
+    height: 50px;
+    padding-left: 15px;
+    background: #fff;
+    border-radius: 7px;
+}
+header .bottom button{
+    min-width: 170px;
+    height: 50px;
+    padding-left: 15px;
+    background: #FB6514;
+    border-radius: 7px;
+    border: 1px solid transparent;
+    color: #fff;
+}
+
+header .bottom img{
+    display: block;
+    max-width: 100%;
+    height: 45px;
+}
+
+.min{
+    background: linear-gradient(45deg, #101828 0%, #475467 100%);
+}
+.min .container{
+    height: 64px;
+    padding-top: 12px;
+}
+footer{
+    background: linear-gradient(26.57deg, #1D2939 8.33%, #344054 91.67%);
+    padding-top: 40px;
+    text-align: center;
+}
+footer .container{
+    height: 136px;
+    display: flex;
+    justify-content: space-between;
+}
+footer p{
+    color:rgba(255, 255, 255, 0.64);
+}
+footer h2{
+    color:#fff;
+    font-size: 20px;
+}
+
+footer img{
+    max-width: 24px;
+    margin:  0 15px;
+}
+
+.auth_header{
+    height: 400px;
+}
+.content{
+    min-height: 700px;
+    padding: 40px 0;
+}
+
+.populars{
+    padding: 50px 0;
+
+}
+
+.populars > h2{
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+.populars > div{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.sanatorium_min{
+    width: 395px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    margin-bottom:40px;
+}
+
+.sanatorium_min .bg_image{
+    height: 234px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.sanatorium_min:hover .bg_image{
+    background-size: 110%;
+}
+
+.sanatorium_min .sanatorium_content{
+    padding: 8px;
+}
+
+.sanatorium_min h4{
+    font-weight: 600;
+    font-size: 20px;
+    color: #000;
+}
+
+.sanatorium_min p{
+    font-size: 14px;
+    color: #667085;
+}
+
+
+
+
+.profitable_offers{
+    padding: 50px 0;
+}
+
+.profitable_offers > h2{
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+.profitable_offers > div{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.profitable_offers .profitable_offer_item{
+    width: 395px;
+    overflow: hidden;
+}
+
+.profitable_offers .profitable_offer_item .bg_image{
+    height: 234px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.profitable_offers .profitable_offer_item .profitable_offer_content{
+    padding: 7px;
+    display: flex;
+    justify-content: space-between;
+}
+.profitable_offers .profitable_offer_item .profitable_offer_content span{
+    background-color: #E0EAFF;
+    color: rgba(97, 114, 243, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    padding: 0 7px;
+    font-size: 14px;
+}
+
+.profitable_offers .profitable_offer_item p{
+    padding:0 7px;
+}
+
+.profitable_offers .profitable_offer_item h4{
+    font-weight: 600;
+    font-size: 20px;
+    color: #000;
+}
+
+.profitable_offers .profitable_offer_item p{
+    font-size: 14px;
+    color: #667085;
+}
+
+.login_content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 35px;
+}
+.login_content > div{
+    display: flex;
+    flex-direction: column;
+}
+.login_content h2{
+    font-weight: bold;
+    font-size: 24px;
+    color: #101828;
+}
+
+.login_content p{
+    font-size: 16px;
+    color: #667085;
+}
+
+.login_content input{
+    width: 100%;
+    text-align: center;
+    border: 1px solid transparent;
+    border-bottom: 1px solid rgba(208, 213, 221, 1);
+    margin-bottom: 20px;
+}
+
+.login_content input:focus{
+    outline: none;
+    border-bottom: 1px solid rgba(208, 213, 221, 1);
+}
+
+.login_content button{
+    background: #FB6514;
+    border:none;
+    padding: 7px 10px;
+    color: #fff;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 0px 96px rgba(0, 0, 0, 0.16);
+    border-radius: 8px;
+    width: 100%;
+}
+
+.login_content span{
+    text-align: center;
+    color: #667085;
+    margin: 16px 0px;
+}
+
+.login_content span a{
+  color: #FB6514;
+}
+
+
+
+.profile_left_bar {
+    list-style: none;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.08), 0px 2px 24px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    margin-right: 40px;
+}
+
+.profile_left_bar li a{
+    display: flex;
+    justify-content: space-between;
+    height: 56px;
+    align-items: center;
+    padding: 0 15px ;
+    color: rgba(16, 24, 40, 1);
+    border-bottom: 0.5px solid #E4E7EC;
+
+}
+.profile_left_bar li a:hover{
+    background-color: #FFFAF5;
+}
+.profile_left_bar li a:hover  svg{
+    color: #FB6514;
+}
+.profile_left_bar span{
+    margin-right: 16px;
+}
+
+.profile_left_bar li a div svg{
+    color: #FB6514;
+    margin-right: 16px;
+}
+.profile_content{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.profile_content  h2{
+    margin-bottom: 20px;
+}
+
+.history_orders{
+    display: flex;
+    flex-direction: column;
+}
+.history_order{
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.08), 0px 2px 24px rgba(0, 0, 0, 0.08);
+    border-radius: 12px;
+    padding: 15px;
+}
+.history_order .up{
+    display: flex;
+}
+
+
+.nameAddress > h1{
+    font-size: 32px;
+    font-weight: 800;
+    color: #101828;
+}
+.nameAddress > p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #667085;
+}
+.nameAddress > h4{
+    font-size: 20px;
+}
+
+.sanatorium_room{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+.sanatorium_room h5{
+    font-weight: 600;
+    font-size: 18px;
+    color: #101828;
+    margin: 12px 0;
+    padding: 0 12px;
+}
+
+.sanatorium_room .info{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 12px;
+}
+.sanatorium_room .option{
+    padding: 0 12px;
+    margin-bottom: 10px;
+}
+.sanatorium_room .option > div{
+    margin-right: 7px;
+}
+
+.sanatorium_room .info .count{
+    display: flex;
+    align-items: center;
+
+}
+
+.sanatorium_room .info .count img{
+    max-width: 24px;
+    margin-right: 2px;
+}
+
+.sanatorium_room .info .count p{
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    color: #101828;
+    margin-right: 10px;
+}
+
+.sanatorium_room .info .price{
+    font-size: 22px;
+    color: #101828;
+}
+
+.sanatorium_room .info .price span{
+    font-size: 13px;
+    color: #667085;
+}
+
+
+.sanatorium_room > p{
+    font-size: 14px;
+    color: #667085;
+    padding: 0 12px;
+
+}
+
+.sanatorium_room > button{
+    background: #FB6514;
+    border: 1px solid transparent;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 0px 96px rgba(0, 0, 0, 0.16);
+    border-radius: 8px;
+    text-align: center;
+    color: #fff;
+    padding: 10px 0;
+    margin: 0 12px;
+}
+
+#reserveCount .modal-body > div{
+    display: flex;
+    justify-content: space-between;
+}
+#reserveCount .modal-body > div .calk{
+    display: flex;
+    margin-bottom: 5px;
+}
+
+#reserveCount .modal-body > div .calk button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    font-size: 24px;
+    height: 40px;
+    width: 40px;
+}
+
+#reserveCount .modal-body > div .calk input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid transparent;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+}
+
+.history_order{
+    color: #101828;
+    margin-bottom: 23px;
+}
+.history_order .up{
+    display: flex;
+    justify-content: space-between;
+}
+
+.history_order .avatar{
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+
+}
+
+
+.history_order .up .left{
+    display: flex;
+    margin-right: 120px;
+
+}
+
+.history_order .up .left h2{
+    font-weight: bold;
+    font-size: 16px;
+}
+.history_order .up .left h4{
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.history_order .download{
+    display: flex;
+    justify-content: space-evenly;
+    background: #F5F8FF;
+    border: 0.33px solid #E0EAFF;
+    border-radius: 8px;
+    color: #6172F3;
+    width: 179px;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.history_order .download svg{
+    width: 20px;
+}
+
+.notifications{
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.08), 0px 2px 24px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    padding: 25px;
+}
+
+.notifications > div{
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.notifications > div .avatar{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+
+}
+
+.notifications > div h2{
+    font-weight: 600;
+    font-size: 16px;
+    color: #101828;
+}
+
+.notifications > div h4{
+    font-weight: normal;
+    font-size: 14px;
+    color: #344054;
+}
+
+.notifications > div h6{
+    font-weight: normal;
+    font-size: 12px;
+    color: #667085;
+}
+
+.notifications > div p{
+    font-weight: normal;
+    font-size: 14px;
+    color: #344054;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact .top{
+    display: flex;
+}
+
+.contact .avatar{
+    width: 144px;
+    height: 144px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    margin-right: 24px;
+    margin-bottom: 24px;
+}
+
+.contact .social img{
+    max-width: 25px;
+    margin-right: 20px;
+}
+
+.contact .bottom{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.contact .bottom p{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    height: 50px;
+    align-items: center;
+    padding: 0 16px;
+}
+
+.contact .bottom p:nth-child(2n){
+    background-color: #F9FAFB;
+}
+
+.sanatoriums > .top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.sanatoriums > .top input{
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    border: 1px solid transparent;
+    height: 50px;
+    padding-left: 20px;
+    min-width: 300px;
+}
+.sanatoriums > .list{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+.booking > h2{
+    font-weight: bold;
+    font-size: 24px;
+    color: #101828;
+    margin-bottom: 32px;
+}
+
+.booking > .room{
+    background: #FFFFFF;
+    border-radius: 12px 12px 0px 0px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+.booking > .room .top{
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.booking > .room h3{
+    font-weight: 600;
+    font-size: 20px;
+    color: #101828;
+    margin-right: 15px;
+}
+
+.booking > .room p{
+    font-weight: normal;
+    font-size: 12px;
+    color: #667085;
+    margin-right: 10px;
+}
+
+
+.booking > .room .count{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.booking > .room .count p{
+    display: flex;
+    align-items: center;
+}
+
+.booking > .room .count img{
+    max-width: 15px;
+    margin-right: 7px;
+}
+
+.booking > .room h4{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #344054;
+}
+
+
+.booking .form-group{
+    margin-bottom: 20px;
+}
+
+.booking .users{
+    margin-top: 50px;
+}
+.booking_user{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.08), 0px 2px 24px rgba(0, 0, 0, 0.08);
+    border-radius: 12px;
+    margin-bottom: 25px;
+    padding: 16px;
+}
+.booking_user h2{
+    font-weight: bold;
+    font-size: 16px;
+    color: #101828;
+
+}
+
+.booking_user label{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    color: #101828;
+    margin-top: 10px;
+}
+.booking_user .gender{
+    display: flex;
+    align-items: center;
+}
+
+.booking_user .gender label{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    margin-right: 15px;
+}
+.booking_user .gender input{
+    margin-right: 5px;
+}
+.booking button{
+    background-color: #FD7E14FF;
+    border-radius: 7px;
+    color: #fff;
+    padding:15px;
+    border: 1px solid transparent;
+}
+
+
+.salePage h1{
+    margin-bottom: 25px;
+}
+
+.salePage a{
+    background-color: #fff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-bottom: 25px;
+    display: flex;
+    color: #000;
+
+}
+.salePage a .avatar{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+.salePage a h2{
+    margin-bottom: 15px;
+}
